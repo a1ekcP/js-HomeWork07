@@ -11,5 +11,9 @@ const swiper = new Swiper('.swiper', {
     scrollbar: {
         el: '.swiper-scrollbar',
         draggable: true,
-      },
+    },
+    effect: 'fade',
+    fadeEffect: {
+        crossFade: true
+    },
   });
